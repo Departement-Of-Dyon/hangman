@@ -1,0 +1,13 @@
+[package]
+name = "hangman"
+version = "1.0.0"
+edition = "2021"
+description = "A letter-guessing word game written in Rust — guess the hidden word one letter at a time"
+license = "MIT"
+
+[[bin]]
+name = "hangman"
+path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
